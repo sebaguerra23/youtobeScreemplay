@@ -5,7 +5,6 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Tasks;
-
 import java.util.List;
 import java.util.Random;
 

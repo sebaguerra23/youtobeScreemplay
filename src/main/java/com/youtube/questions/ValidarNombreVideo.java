@@ -15,13 +15,9 @@ public class ValidarNombreVideo implements Question {
 
         WebElementFacade mensaje = LBL_NOMBRE_VIDEO.resolveFor( actor );
         String nombreMensajeBienvenida = mensaje.getText();
-
         System.out.println( nombreVideo );
         return nombreVideo.equals( nombreMensajeBienvenida );
     }
-
-
-
         public static ValidarNombreVideo on(){
         return new ValidarNombreVideo();
     }
